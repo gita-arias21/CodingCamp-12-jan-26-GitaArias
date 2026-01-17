@@ -1,4 +1,4 @@
-"<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -45,31 +45,34 @@
     <hr/>
 
         <!-- Portfolio Page -->
-        <section id="portfolio-page" class="min-h-[500px] text-center content-center py-12">
-        <h2 class="text-xl font-bold">Our Portfolio</h2>
-        <p class="mt-2 text-gray-600">Take a look at our diverse range of projects that showcase our skills and expertise.</p>
+       <section id="portfolio-page" class="min-h-[500px] text-center content-center py-12">
+    <h2 class="text-xl font-bold">Our Portfolio</h2>
+    <p class="mt-2 text-gray-600">GitaS Company hadir lebih dekat dengan Anda. Dengan kantor yang tersebar di tiga pusat ekonomi utama Indonesia, kami memastikan kolaborasi yang intensif dan dukungan teknis yang cepat bagi seluruh klien kami.</p>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 max-w-4xl mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 max-w-4xl mx-auto px-4">
         
         <div class="flex flex-col items-center">
-            <div class="p-4 bg-blue-100 rounded-full mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-blue-600"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.5 1.5"></path><path d="M7.11 22.45l-4.56-4.56a2 2 0 0 1 0-2.83l15.44-15.44a2 2 0 0 1 2.83 0l4.56 4.56a2 2 0 0 1 0 2.83L9.94 22.45a2 2 0 0 1-2.83 0z"></path></svg>
+            <div class="mb-4 overflow-hidden rounded-xl shadow-md border-2 border-blue-100">
+                <img src="Jakarta.jpg" alt="Jakarta" class="w-40 h-40 object-cover hover:scale-110 transition duration-300">
             </div>
-            <h3 class="font-semibold">Web Design</h3>
-         </div>
-
-        <div class="flex flex-col items-center">
-            <div class="p-4 bg-green-100 rounded-full mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-green-600"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
-            </div>
-            <h3 class="font-semibold">App Development</h3>
+            <h3 class="font-semibold text-lg">Jakarta</h3>
+           
         </div>
 
         <div class="flex flex-col items-center">
-            <div class="p-4 bg-purple-100 rounded-full mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-purple-600"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+            <div class="mb-4 overflow-hidden rounded-xl shadow-md border-2 border-green-100">
+                <img src="Bandung.jpg" alt="Bandung" class="w-40 h-40 object-cover hover:scale-110 transition duration-300">
             </div>
-            <h3 class="font-semibold">Content Strategy</h3>
+            <h3 class="font-semibold text-lg">Bandung</h3>
+           
+        </div>
+
+        <div class="flex flex-col items-center">
+            <div class="mb-4 overflow-hidden rounded-xl shadow-md border-2 border-purple-100">
+                <img src="Surabaya.jpg" alt="Surabaya" class="w-40 h-40 object-cover hover:scale-110 transition duration-300">
+            </div>
+            <h3 class="font-semibold text-lg">Surabaya</h3>
+            
         </div>
 
     </div>
@@ -80,55 +83,74 @@
         <!-- Our Profile Page -->
         <section id="our-profile-page" class="min-h-[500px] text-center content-center">
             <h2 class="text-xl font-bold">About Company</h2>
-            <p class="mt-2">Yama Company is dedicated to providing top-notch services in various domains.</p>
+            <p class="mt-2">GitaS Company adalah agensi teknologi kreatif yang berfokus pada penyediaan solusi digital terintegrasi, mencakup Web Design dan Application Development. Kami hadir untuk menjembatani kesenjangan antara ide bisnis dan realitas digital. Dengan tim ahli di bidang UI/UX dan Software Engineering, kami menciptakan platform yang tidak hanya estetis secara visual, tetapi juga tangguh secara teknis, baik di layar browser maupun di genggaman ponsel.</p>
             </section>
 
         <hr />
 
         <!-- Message Us Page -->
-        <section id="message-us-page" class="min-h-[500px] mx-8">
-            <header>
+        <section id="message-us-page" class="min-h-[500px] mx-8 py-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+        
+        <div class="bg-white p-6 rounded-lg shadow-sm border">
+            <header class="mb-6">
                 <h2 class="text-xl font-bold">Message Us</h2>
-                <p class="mt-2">Have questions or want to work with us? Send us a message and we'll get back to you
-                    promptly.</p>
             </header>
 
-            <form>
+            <form id="contactForm">
                 <div class="mb-4">
-                    <label class="block mb-2" for="name">Name:</label>
-                    <input class="w-full p-2 border rounded" type="text" id="name" name="name" required />
+                    <label class="block mb-2 font-medium" for="name">Nama:</label>
+                    <input class="w-full p-2 border rounded focus:ring-2 focus:ring-blue-400 outline-none" type="text" id="name" required />
                 </div>
+
                 <div class="mb-4">
-                    <label class="block mb-2" for="email">Email:</label>
-                    <input class="w-full p-2 border rounded" type="email" id="email" name="email" required />
+                    <label class="block mb-2 font-medium" for="birthdate">Tanggal Lahir:</label>
+                    <input class="w-full p-2 border rounded focus:ring-2 focus:ring-blue-400 outline-none" type="date" id="birthdate" required />
                 </div>
+
                 <div class="mb-4">
-                    <label class="block mb-2" for="message">Message:</label>
-                    <textarea class="w-full p-2 border rounded" id="message" name="message" rows="5"
-                        required></textarea>
+                    <label class="block mb-2 font-medium">Jenis Kelamin:</label>
+                    <div class="flex gap-4">
+                        <label class="flex items-center">
+                            <input type="radio" name="gender" value="Laki-laki" class="mr-2" checked> Laki-laki
+                        </label>
+                        <label class="flex items-center">
+                            <input type="radio" name="gender" value="Perempuan" class="mr-2"> Perempuan
+                        </label>
+                    </div>
                 </div>
-                <button class="px-4 py-2 bg-blue-500 text-white rounded" type="button">Send Message</button>
+
+                <div class="mb-4">
+                    <label class="block mb-2 font-medium" for="message">Pesan:</label>
+                    <textarea class="w-full p-2 border rounded focus:ring-2 focus:ring-blue-400 outline-none" id="message" rows="4" required></textarea>
+                </div>
+
+                <button id="submitBtn" class="w-full px-4 py-2 bg-gray-500 hover:bg-gray-600 text-white font-bold rounded transition" type="button">
+                  Submit
+                </button>
             </form>
-        </section>
+        </div>
+
+        <div id="resultBox" class="bg-gray-50 p-6 rounded-lg border border-dashed border-gray-300 flex flex-col">
+            <div id="displayArea" class="space-y-3 text-gray-700">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
     </main>
 
     <!-- Footer Content -->
     <footer>
-        <p class="text-center p-4 bg-gray-200">© 2026 Yama Company. All rights reserved.</p>
+        <p class="text-center p-4 bg-gray-200">© 2026 Gita Company. All rights reserved.</p>
     </footer>
 
     <!-- Javascript External -->
     <script src="js/script.js"></script>
-</body>
+    </body>
 
 </html>
 
-    </main>
-
-
-
-
-
-
-
-</body>
+  
